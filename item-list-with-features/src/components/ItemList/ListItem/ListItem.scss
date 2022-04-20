@@ -1,0 +1,23 @@
+.list-container {
+  &:hover {
+    .hover-buttons-container {
+      display: flex !important;
+    }
+    .list-text {
+      margin-left: 0.5rem;
+    }
+  }
+  
+  .hover-buttons-container {
+    display: none !important;
+  }
+  
+  .hover-button {
+    margin-right: 0.25em;
+  }
+  
+  .list-text {
+    display: block;
+    margin-left: 2rem;
+  }
+}
